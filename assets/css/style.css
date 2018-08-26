@@ -1,0 +1,21 @@
+/* h1 styling followed by class*/
+
+h1 {
+    color: black; background-color: purple;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif; font-weight: bold; background-color: blue;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; color: darkblue;
+}
+
+body {
+    background-color: lightseagreen;
+}
+
+#muah {
+    float: left; margin: 20px;
+}
