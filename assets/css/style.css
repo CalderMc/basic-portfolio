@@ -19,3 +19,50 @@ body {
 #muah {
     float: left; margin: 20px;
 }
+/** desktop **/
+
+@media screen and (max-width: 1024px) {
+    body {
+        margin: auto; background-color: lightblue
+    }
+    #contact{
+        margin: auto; 
+    }
+    .next{
+        width: 700px; 
+        margin: auto;
+    }
+}
+
+/** tablet **/
+
+@media screen and (max-width: 800px) {
+    body {
+        margin-left: 3%; background-color: purple
+    }
+    #contact {
+        margin: auto;
+    }
+    .top {
+        width: 600px;
+        margin: auto;
+    }
+
+}
+
+    /** phone **/
+
+@media screen and (max-width: 500px) {
+    body {
+        margin: auto; background-color: green
+    }
+    #contact {
+        margin: auto;
+    }
+    .top {
+        width: 400px;
+        margin: auto;
+    }
+}
+    
+
