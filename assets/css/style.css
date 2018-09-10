@@ -32,6 +32,10 @@ body {
         width: 700px; 
         margin: auto;
     }
+    .top{
+        width: 700px;
+        margin: auto;
+    }
 }
 
 /** tablet **/
@@ -41,6 +45,10 @@ body {
         margin-left: 3%; background-color: purple
     }
     #contact {
+        margin: auto;
+    }
+    .next{
+        width: 600px;
         margin: auto;
     }
     .top {
@@ -57,6 +65,10 @@ body {
         margin: auto; background-color: green
     }
     #contact {
+        margin: auto;
+    }
+    .next{
+        width: 400px;
         margin: auto;
     }
     .top {
