@@ -1,0 +1,80 @@
+/* h1 styling followed by class*/
+
+h1 {
+    color: black; background-color: purple;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif; font-weight: bold; background-color: blue;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; color: darkblue;
+}
+
+body {
+    background-color: lightseagreen;
+}
+
+#muah {
+    float: left; margin: 20px;
+}
+/** desktop **/
+
+@media screen and (max-width: 980px) {
+    body {
+        margin: auto; background-color: lightblue
+    }
+    #contact{
+        margin: auto; 
+    }
+    .next{
+        width: auto; 
+        margin: auto;
+    }
+    .top{
+        width: auto;
+        margin: auto;
+    }
+}
+
+/** tablet **/
+
+@media screen and (max-width: 768px) {
+    body {
+        margin-left: 3%; background-color: purple
+    }
+    #contact {
+        margin: auto;
+    }
+    .next{
+        width: auto;
+        margin: auto;
+    }
+    .top {
+        width: auto;
+        margin: auto;
+    }
+
+}
+
+    /** phone **/
+
+@media screen and (max-width: 640px) {
+    body {
+        margin: auto; background-color: green
+    }
+    #contact {
+        margin: auto;
+    }
+    .next{
+        width: auto;
+        margin: auto;
+    }
+    .top {
+        width: auto;
+        margin: auto;
+    }
+}
+    
+
