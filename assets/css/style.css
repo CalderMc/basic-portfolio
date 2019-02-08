@@ -1,7 +1,7 @@
 /* h1 styling followed by class*/
 
 h1 {
-    color: black; background-color: purple;
+    color: black; background-color: white;
 }
 
 h2 {
@@ -13,7 +13,7 @@ p {
 }
 
 body {
-    background-color: lightseagreen;
+    background-color: black;
 }
 
 #muah {
